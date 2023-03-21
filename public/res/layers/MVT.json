@@ -1,0 +1,15 @@
+{
+	"source": {
+		"style" : "https://wxs.ign.fr/essentiels/static/vectorTiles/styles/PLAN.IGN/standard.json",
+		"filter": { 
+			"arguments": "layer",
+			"body": "return layer['source-layer'].includes('bati_surf') && layer.paint['fill-color'];"
+		}
+	},
+	"zoom": { "min": 15 },
+	"acurate": false,
+	"style": {
+		"base_altitude_property": "alti_sol",
+		"extrusion_height_property": "hauteur"
+	}
+}

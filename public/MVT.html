@@ -1,0 +1,28 @@
+<html>
+    <head>
+        <title>Itowns</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+    </head>
+    <body>
+        <div id="viewerDiv"></div>
+
+        <script type="text/javascript">
+            const VIEWER_TYPE = 'MVT';
+
+            const placement = {
+                coord: { crs: 'EPSG:4326', x: 4.818, y: 45.7354 },
+                range: 3000,
+                tilt: 30,
+            }
+        </script>
+
+        <script src="js/main.js"></script>
+
+    </body>
+</html>

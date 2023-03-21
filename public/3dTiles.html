@@ -1,0 +1,41 @@
+<html>
+    <head>
+        <title>Itowns</title>
+
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.6/dat.gui.min.js"></script>
+    </head>
+    <body>
+        <div id="viewerDiv"></div>
+
+        <script type="text/javascript">
+            const VIEWER_TYPE = '3dTiles';
+
+            const extent = {
+                crs: 'EPSG:3946',
+                boundaries: [
+                    1837816.94334, 1847692.32501, 
+                    5170036.4587, 5178412.82698,
+                ],
+            };
+
+            const placement = {
+                coord: {
+                    crs: "EPSG:4326",
+                    x: 4.826910414666255,
+                    y: 45.76906731468259,
+                    z: 170.93430282062988
+                },
+                range: 627.5846323105634,
+                tilt: 30,
+                heading: 16.196432700436105,
+            }
+        </script>
+
+        <script src="js/main.js"></script>
+    </body>
+</html>

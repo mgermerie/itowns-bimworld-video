@@ -1,0 +1,13 @@
+{
+	"source": {
+		"url": "https://download.data.grandlyon.com/wms/grandlyon",
+		"name": "MNT2012_Altitude_10m_CC46",
+		"crs": "EPSG:3946",
+		"width": 256,
+		"format": "image/jpeg"
+	},
+	"id": "MNT",
+	"useColorTextureElevation": true,
+	"colorTextureElevationMinZ": 144,
+	"colorTextureElevationMaxZ": 622
+}
